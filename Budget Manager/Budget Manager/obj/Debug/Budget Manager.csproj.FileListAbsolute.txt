@@ -1,0 +1,15 @@
+c:\users\tarun\documents\visual studio 2013\Projects\Budget Manager\Budget Manager\bin\Debug\Budget Manager.exe.config
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\bin\Debug\Budget Manager.exe
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\bin\Debug\Budget Manager.pdb
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget Manager.csprojResolveAssemblyReference.cache
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget_Manager.Form1.resources
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget_Manager.Properties.Resources.resources
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget_Manager.View.resources
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget Manager.csproj.GenerateResource.Cache
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget Manager.exe
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget Manager.pdb
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\bin\Debug\Budget Manager.exe.manifest
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\bin\Debug\Budget Manager.application
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget Manager.TrustInfo.xml
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget Manager.exe.manifest
+C:\Users\tarun\Documents\visual studio 2013\Projects\Budget Manager\Budget Manager\obj\Debug\Budget Manager.application

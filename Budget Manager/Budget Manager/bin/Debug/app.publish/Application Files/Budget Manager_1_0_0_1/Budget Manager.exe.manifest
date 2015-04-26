@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Budget Manager.exe" version="1.0.0.1" publicKeyToken="e9827bdc57a48a4b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Budget Manager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Budget Manager.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Budget Manager.exe" size="17312">
+      <assemblyIdentity name="Budget Manager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z69juuw33N9LwQ28qij9mUGl2LuZOC0FdcMlmSTnQ2Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Budget Manager.exe.config" size="492">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bs8a9rQ2IkkeOFQir+cPteON5SSoKfbZT26xSFluQi8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=TAVE\tarun" issuerKeyHash="e208d8668f897e3400967365670b8958277c85cb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lYyFwe/OdFWx8FN4UcIEH7vRVzfGWJKf8EmillfUt64=</DigestValue></Reference></SignedInfo><SignatureValue>MiJ+xfYaQiQiurVGjRDrhdiUrDsqQle9Zwl5yoqI6iNJJqPH76aQlntIXMYkFPGSjT3qDYaTmm6LmYRcDv4DatHer8n6Ioe5LtNmwj7r+9ICTdCMkk0OlSvSwZ/VIfDzWDclezWRohRbIg+9YLb+Ezjq5qfwXAANZXannqf0DLo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xmvY6u/C+oxsrcooKzGIpLkU1VlSx2PsRSlhP4WU6XaMRxN9WvD9li7uU4KSp9cQocxXH19n40Q6077cCIE0jFrHlP39GP3L5nXMSUsuxi0dG8JjFnvQyjV2fy1dkWk4vAzwd0JBF2eugr7U3feaNNL2aKWMaOHNkTh4s3lyecc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aeb7d45796a249f09f9258c63757d1bb1f04c2517853f0b15574ceefc1858c95" Description="" Url=""><as:assemblyIdentity name="Budget Manager.exe" version="1.0.0.1" publicKeyToken="e9827bdc57a48a4b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TAVE\tarun</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>srBnw1Ht3OK4o/pcHkZmgg0I1rGwQrCiDbheyOUY3mE=</DigestValue></Reference></SignedInfo><SignatureValue>JeDdwahmFXGvMIxHh3/VQIpiuri7f40SJTgiDKJB/3gvL5JwKnKjJAcYDrEfNreWJfeo8rHgItvhexScZ40q8tRDOOboRp/p/yIIWjlgnTAHaP/kNXEV38uN7XYcYcRNmNG9nwLsvGY88RAYXcNVLawC62yfqOUHZYXHKi1AHL8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xmvY6u/C+oxsrcooKzGIpLkU1VlSx2PsRSlhP4WU6XaMRxN9WvD9li7uU4KSp9cQocxXH19n40Q6077cCIE0jFrHlP39GP3L5nXMSUsuxi0dG8JjFnvQyjV2fy1dkWk4vAzwd0JBF2eugr7U3feaNNL2aKWMaOHNkTh4s3lyecc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQPNTx90kcBKBEzC5Eau/tqzANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAVABBAFYARQBcAHQAYQByAHUAbjAeFw0xNTAxMDgwNTE0MjFaFw0xNjAxMDgxMTE0MjFaMB8xHTAbBgNVBAMeFABUAEEAVgBFAFwAdABhAHIAdQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGa9jq78L6jGytyigrMYikuRTVWVLHY+xFKWE/hZTpdoxHE31a8P2WLu5TgpKn1xChzFcfX2fjRDrTvtwIgTSMWseU/f0Y/cvmdcxJSy7GLR0bwmMWe9DKNXZ/LV2RaTi8DPB3QkEXZ66CvtTd95o00vZopYxo4c2ROHizeXJ5xwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGMK99LRmXsKs+CGmlPUxDSPA3Tg2FJLKxPZ1+/qY3n/ts2CfYYSlA3YS3XXfOJW3m6pDalUqCPAxLuFM8zxKbrFEepPtxW46OvTczBdk/6/0N5tOcOgZbac0Fq3aw1cc7FdYYWPl6VoPaV/tObwg8jFQQ6FPaGj7hKPtIEvnbfv</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
